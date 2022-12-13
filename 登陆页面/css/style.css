@@ -1,0 +1,75 @@
+html::before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+    background:linear-gradient( 135deg, #FFF886 10%,#F072B6 100%) ;;
+}
+.container{
+    width: 600px;
+    height: 350px;
+    margin-top: 30vh;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(255,255,255,0.4);
+    border-radius: 1.5rem;
+    font-size: 20px;
+}
+.box1{
+    width: 70%;
+    margin: auto;
+    padding-top: 5px;
+    align-items: center;
+}
+.acc1{
+    height: 40px;
+    width: 63%;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    background: rgba(255,255,255,0.4);
+    border-radius: 25px;
+    font-size: 18px;
+    background-image: url("../img/人.png") ;
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: 10px;
+    padding-left: 40px;
+}
+.acc2{
+    height: 40px;
+    width: 63%;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    background: rgba(255,255,255,0.4);
+    border-radius: 25px;
+    font-size: 18px;
+    background-image: url("../img/锁.png") ;
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: 10px;
+    padding-left: 40px;
+}
+.box2{
+    margin-top: 10px;
+    float: right;
+}
+a{
+    text-decoration: none;
+    color: #666666;
+}
+.submit{
+    float: right;
+    margin-top: 20px;
+    font-size: 20px;
+    width: 130px;
+    height: 50px;
+    border: none;
+    background-color: rgba(255,255,255,0.4);
+    color: #666666;
+    border-radius: 30px;
+}
